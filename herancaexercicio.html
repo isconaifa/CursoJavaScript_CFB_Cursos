@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./herancaexercicio.css">
+    <script defer src="./herancaexercicio.js"></script>
+    <title>Entendendo Herança</title>
+</head>
+
+<body>
+    <div id="criarcarro" class="criarcarro">
+        <div class="campoForm">
+            <label>Nome</label>
+            <input type="text" name="f-nome" id="f_nome" value="">
+        </div>
+        <div class="campoForm">
+            <label>Portas</label>
+            <input type="number" name="f-portas" id="f_portas" value="0">
+        </div>
+        <div class="campoForm">
+            <label>Blindagem</label>
+            <input type="number" name="f-blindagem" id="tipo_blindagem" disabled value="0">
+        </div>
+        <div class="campoForm">
+            <label>Munição</label>
+            <input type="number" name="f-municao" id="tipo_municao" disabled value="0">
+        </div>
+        <div class="campoForm">
+            <label>Tipo</label>
+            <div class="radio">
+                <input type="radio" name="f-tipo" id="tipo_militar" value="m" checked> Militar
+            </div>
+
+            <label>Tipo</label>
+            <div class="radio">
+                <input type="radio" name="f-tipo" id="tipo_normal" value="n" checked> Normal
+            </div>
+
+            <div class="campoForm">
+                <button id="btn_addCarro">Adicionar</button>
+            </div>
+            <div class="campoForm">
+                <button id="btn_remove">Remover</button>
+            </div>
+        </div>
+
+
+        <div class="carro">
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
