@@ -1,0 +1,72 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    border: none;
+    font-size: larger;
+}
+
+body{
+    background-color: #556b2f;
+}
+.calc{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ background-color: #eee;
+ border: 3px solid #bbb;
+ width: 300px;
+ margin-left: 45%;
+
+}
+
+.nome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    
+}
+
+.div_teclas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    flex-wrap: wrap;
+}
+
+.tecla{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #aaa;
+    border: 2px solid #888;
+    font-weight: bold;
+    width: 65px;
+    height: 65px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin: 2px;
+    font-size: xx-large;
+
+}
+
+.teclaOp{
+    background-color: #ff0000 !important;
+    border-color: #ff0000 !important;
+}
+
+.div_display{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+}
+.display{
+    width: 220px;
+    text-align: right;
+    padding: 5px;
+font-size:x-large;
+}

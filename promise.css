@@ -1,0 +1,39 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-size: large;
+}
+body{
+    background-color: darkslategrey;
+}
+h1{
+    color: whitesmoke;
+}
+
+h1{
+text-align: center;
+font-size: x-large;
+}
+
+.numero{
+    font-size: larger;
+}
+.ok{
+    color: #04f710;
+}
+
+.erro{
+    color: #f00;
+}
+
+#btn_promessa{
+padding: 5px;
+border: 2px solid #04f710;
+border-radius: 5px;
+cursor: pointer;
+text-align: center;
+margin-left: 48%;
+}
