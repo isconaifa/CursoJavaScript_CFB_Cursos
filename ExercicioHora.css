@@ -1,0 +1,38 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    border: none;
+}
+
+.hora_circulo{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    justify-content: center;
+    background-color: #010b5e;
+    font-size: x-large;
+    color: #ffffff;
+    border: 3px solid #e7080850;
+margin-top: 49%;
+    flex-direction: column;
+    position: fixed;
+    cursor: pointer;
+}
+
+.hora{
+    display: flex;
+    width: 30px;
+    text-align: center;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.data{
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+
+}

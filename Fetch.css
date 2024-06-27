@@ -1,0 +1,18 @@
+*{
+border: none;
+padding: 0px;
+margin: 0px;
+box-sizing: border-box;
+}
+
+#btn_texto{
+   width: 150px;
+   height: 30px;
+   background-color: #aaa;
+   margin-top: 10px;
+   margin-left: 5px;
+   border: 2px solid #2f0fe6;
+   font-size: larger;
+   border-radius: 5px;
+   cursor: pointer;
+}
